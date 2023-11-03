@@ -3,25 +3,32 @@
 
 
 **Introduction**
+
+
 DBT is an open-source tool that enables data teams to transform data using analytics engineering best practices
 It automatically generates documentation around descriptions, models dependencies, model SQL, sources, and tests. dbt creates lineage graphs of the data pipeline, providing transparency and visibility into what the data is describing, how it was produced, as well as how it maps to business logic. 
 In this project, we will build a time series model Using the Craigslist Vehicles Dataset
 
 **The Data**
+
 We are using data from (https://www.kaggle.com/datasets/mbaabuharun/craigslist-vehicles)
 
 **Installation**
+
 Installing PostgreSQL, Snowflake, DBT, and Power BI in my machine. 
 I have used DB Browser for SQLite since my machine hasn’t installed PostgreSQL
 
 **Importation of data into DB Browser for SQLite**
+
 I have created a database and a table in SQL to store Craigslist Vehicles Dataset. 
 I have then imported the dataset in to the database
 
 **Setting up Snowflake Account**
+
 I have created a free trial snowflake account 
 
 **Transfer of data to Snowflake**
+
 I have transferred the data using the Snowflake web interface to transfer data from DB Browser for SQLite.
 
 ```python 
