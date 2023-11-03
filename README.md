@@ -1,5 +1,5 @@
-# Project-4-BUILDING-DATA-BUILD-TOOL-DBT-MODELS
-**BUILDING DATA BUILD TOOL (DBT) MODELS**
+### Project-4-BUILDING-DATA-BUILD-TOOL-DBT-MODELS
+# **BUILDING DATA BUILD TOOL (DBT) MODELS**
 
 
 **Introduction**
@@ -45,6 +45,7 @@ SELECT
 ```
 
 **Power BI Visualization**
+
 I have connected Power BI to Snowflake database to access the transformed data. Then created reports and dashboards in Power BI to visualize and analyze the data.
 I have selected the data from your Snowflake database, "craigslist_vehicles.csv" transformed data. 
 I have built interactive dashboards by creating visualizations by dragging and dropping fields pane into report canvas. 
