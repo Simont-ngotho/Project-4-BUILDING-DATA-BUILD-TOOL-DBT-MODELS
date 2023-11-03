@@ -24,7 +24,7 @@ I have created a free trial snowflake account
 **Transfer of data to Snowflake**
 I have transferred the data using the Snowflake web interface to transfer data from DB Browser for SQLite.
 
-'''python
+```python 
 DBT Data Transformation
 After setting us a DBT account, I have used SQL to do data preprocessing, i.e. handling missing information, .
 
@@ -42,7 +42,7 @@ SELECT
   COALESCE(price, median_price) AS price,
   COALESCE(year, median_year) AS year,
   COALESCE(odometer, median_odometer) AS odometer,
-'''
+```
 
 **Power BI Visualization**
 I have connected Power BI to Snowflake database to access the transformed data. Then created reports and dashboards in Power BI to visualize and analyze the data.
